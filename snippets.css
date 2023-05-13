@@ -10,7 +10,8 @@
     display: none !important;
 }
 
-class^="channel-"] > div > [href="/store"], /* Nitro Button above DM List */
+
+[class^="channel-"] > div > [href="/store"], /* Nitro Button above DM List */
 [class^="channelTextArea"] [class^="buttons-"] > button, /* Hide Gift Button */
 [class^="upsellVisible-"], /* Hide Banner Nitro Upsell Header */
 [class^="premiumIconWrapper"], /* Hide Nitro Icon on Banners */
@@ -18,12 +19,4 @@ class^="channel-"] > div > [href="/store"], /* Nitro Button above DM List */
 [class^="emojiSection-"] [class*="shinyButton-"] /* "Get Nitro" button in Emoji/Sticker modal" */
 {
     display: none !important;
-}
-
-
-/* Vencord */
-/*Increase height of Themes textarea */
-.vc-settings-theme-links {
-    max-height: unset;
-    height: 10rem;
 }
