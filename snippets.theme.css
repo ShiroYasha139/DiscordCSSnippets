@@ -1,0 +1,29 @@
+/* Remove Super Reaction */
+[aria-label^="Add Super Reaction"],
+#message-add-reaction-1,
+#super-reaction-picker-tab,
+[class^="burstEmojiSection-"],
+[aria-label^="Reaction Picker Categories"],
+[class^="reactionDefault-"][aria-label*="super reaction"],
+[class^="reactionSelected-"][aria-label*="super reaction"],
+[class^="reactions-"] > div > [style*="background:"] {
+    display: none !important;
+}
+
+class^="channel-"] > div > [href="/store"], /* Nitro Button above DM List */
+[class^="channelTextArea"] [class^="buttons-"] > button, /* Hide Gift Button */
+[class^="upsellVisible-"], /* Hide Banner Nitro Upsell Header */
+[class^="premiumIconWrapper"], /* Hide Nitro Icon on Banners */
+[class^="characterCount-"] [class*="upsell-"], /* "Send longer Messages with Discord Nitro!" */
+[class^="emojiSection-"] [class*="shinyButton-"] /* "Get Nitro" button in Emoji/Sticker modal" */
+{
+    display: none !important;
+}
+
+
+/* Vencord */
+/*Increase height of Themes textarea */
+.vc-settings-theme-links {
+    max-height: unset;
+    height: 10rem;
+}
