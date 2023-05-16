@@ -20,3 +20,8 @@
 {
     display: none !important;
 }
+
+/* discord activities*/
+.channel-1Shao0:has([href="/activities"]) {
+    display: none;
+}
