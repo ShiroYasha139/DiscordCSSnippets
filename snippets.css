@@ -21,7 +21,7 @@
     display: none !important;
 }
 
-/* discord activities*/
-.channel-1Shao0:has([href="/activities"]) {
+/*No birthday in DM*/
+ul[aria-label="Direct Messages"] li:nth-child(4) {
     display: none;
 }
